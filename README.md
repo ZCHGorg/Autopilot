@@ -6,7 +6,7 @@
 
 # particular weakness right now is integration with OBD-1, OBD-2, and/or similar.  This isn't such a difficult undertaking once the code for these desired standards are implemented, and of course these parameters are not neccessary for the main function - autopilot.
 
-# Our redundant functions if Standard Machine Learning fails should be constructed out of Machine Learning Emergency Protocol, such as the 'decide-between' function which was created as a demonstration.  Failed Standard Machine Learning should also fall back on simple algorithms which are our baseline logic to be used in parallel with other Machine Learning Emergency Protocol modules.
+# Our redundant functions if Standard Machine Learning fails should be constructed out of Machine Learning Emergency Protocol, such as the 'decide-between' function which was created as a demonstration.  Failed Standard Machine Learning should also fall back on simple algorithms which are our baseline logic to be used in parallel with other Machine Learning Emergency Protocol modules.  With a large enough data set, Machine Learning rarely gets confused and, if it does, there should also be a Machine Learning Module which permits a hybrid choice between Emergency Protocol Modules and Machine Learning suggestions for 'AI trim settings', resultingly.
 
 *********************************
   
@@ -56,3 +56,5 @@ Incorporate safety mechanisms: Incorporate safety mechanisms into the algorithm,
 Test and validate: Thoroughly test and validate the algorithm with various scenarios to ensure that it is functioning as intended and meets the objectives of near-zero loss-of-life and minimum property damage.
 
 Document and package: Document the code, including the objectives, inputs, outputs, algorithms, and safety mechanisms, and package the code into a single instruction set that can be used by the boiler room to connect all modules together.
+
+# As with many things in life, it's best to start with a simple derivation of this and then expand outward into more functions, outlined herein, as labor-hours permit.  For example, by setting Machine Learning to pass driver to user if confused, this library an be ignored for early revisions and then implemented later on, budget permitting.
