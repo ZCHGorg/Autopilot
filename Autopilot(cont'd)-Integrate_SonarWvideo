@@ -341,3 +341,5 @@ while True:
     vertices = np.array([[(0,imshape[0]),(450, 330), (490, 330), (imshape[1],imshape[0])]], dtype=np.int32)
     cv2.fillPoly(mask, vertices, ignore_mask_color)
     masked_edges = cv2.bitwise_and(edges, mask)
+    
+    ## Copyright Josef Kulovany and zchg.org where applicable - THIS LINE MUST BE SHOWN IF ANY APPLICABLE SNIPPET OR DERIVATIVE THEREIN IS BORROWED PER LICENSE AND COPYRIGHT LAW
