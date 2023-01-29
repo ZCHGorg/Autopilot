@@ -1,4 +1,5 @@
-<B><Headline> This readme is best viewed in code preview mode</B></Headline>
+# <B> This readme is best viewed in code preview mode (source blog mode)</B>
+
 # Autopilot is a big undertaking.  I've done some mental push-ups for you, a boiler room is recommended to complete, or other similar brute-force style of completing integrating the various modules and strings together until there are no loose ends.
 
 # Assemble the files in order of creation by simply copying and pasting into visual-basic code editor, or the like.  The Code will make a lot more sense through this lens.  After that, read through everything.  I stopped with integrating sonar to visual, which should tie everything together as it relates to weighting all possible variables using Machine Learning technique with fall-back settings (which again need to be properly weighted) in the event of machine learning confusion.
