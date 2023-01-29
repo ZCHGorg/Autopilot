@@ -16,13 +16,13 @@
 
 #Import the new module: In your existing code, you can add the following line to import the lane departure warning module:
 
+# python
+
+# import lane_departure_warning as ldw
+# Integrate the new module: You can integrate the new module into your existing code by calling the necessary functions from the lane departure warning module. For example, you can call the detect_departure function from the lane departure warning module within your code that handles the behavior of the car:
 python
 
-import lane_departure_warning as ldw
-Integrate the new module: You can integrate the new module into your existing code by calling the necessary functions from the lane departure warning module. For example, you can call the detect_departure function from the lane departure warning module within your code that handles the behavior of the car:
-python
-
-if ldw.detect_departure():
+# if ldw.detect_departure():
   # trigger warning to driver or autonomous system
   # ...
 Test the entire system: Test the entire system to ensure that the new module is working correctly and that there are no unintended consequences. This can be done by running simulations or test drives with the car.
@@ -31,7 +31,7 @@ Document the new module: Document the new module and its usage within your exist
 
 Repeat as needed: Repeat these steps as needed for each additional module you wish to add to your code.
 
-To complete the construction of the code for the near-zero loss-of-life autopilot algorithm with minimum property damage as a primary objective, the following steps would be taken:
+# To complete the construction of the code for the near-zero loss-of-life autopilot algorithm with minimum property damage as a primary objective, the following steps would be taken:
 
 Gather and analyze data: Collect and analyze data on real-world accidents involving autonomous vehicles to understand common scenarios that result in loss of life or property damage.
 
@@ -51,9 +51,10 @@ Document the code: Thoroughly document the code, including its objectives, desig
 
 This process will ensure that the autopilot code is designed and implemented with the primary objective of minimizing loss of life and property damage, and that it is continuously refined and improved over time.
 
-Josef K
-Ok, it seems like we have a pretty good boiler plate now, looking over our collective conversation regarding autopilot.  Please outline how you would complete construction of this code with the primary objective - 'Design a near-zero loss-of-life autopilot algorithm with minimum property damage also defined as a primary objective' if I were to package all of this code into one instruction set for our boiler room to connect all modules together, and considering the list in your last message, from a coding standpoint - what connective tissue snippets could prove useful? 
-Here's a brief outline of the steps that could be taken to package all of the code into one instruction set for connecting the modules together:
+# Josef K
+# Ok, it seems like we have a pretty good boiler plate now, looking over our collective conversation regarding autopilot.  Please outline how you would complete construction of this code with the primary objective - 'Design a near-zero loss-of-life autopilot algorithm with minimum property damage also defined as a primary objective' if I were to package all of this code into one instruction set for our boiler room to connect all modules together, and considering the list in your last message, from a coding standpoint - what connective tissue snippets could prove useful? 
+
+# Here's a brief outline of the steps that could be taken to package all of the code into one instruction set for connecting the modules together:
 
 Define the objective: Clearly state the objective of the autopilot algorithm as "Design a near-zero loss-of-life autopilot algorithm with minimum property damage also defined as a primary objective".
 
