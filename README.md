@@ -1,5 +1,3 @@
-# This readme is best viewed in code preview mode (copy and paste into an editor such as Visual Basic Code)
-
 # Autopilot is a big undertaking.  I've done some mental push-ups for you, a boiler room is recommended to complete, or other similar brute-force style of completing integrating the various modules and strings together until there are no loose ends.
 
 # Assemble the files in order of creation by simply copying and pasting into visual-basic code editor, or the like.  The Code will make a lot more sense through this lens.  After that, read through everything.  I stopped with integrating sonar to visual, which should tie everything together as it relates to weighting all possible variables using Machine Learning technique with fall-back settings (which again need to be properly weighted) in the event of machine learning confusion.
@@ -19,10 +17,8 @@
 #Import the new module: In your existing code, you can add the following line to import the lane departure warning module:
 
 # python
+# #Integrate the new module: You can integrate the new module into your existing code by calling the necessary functions from the lane departure warning module. For example, you can call the detect_departure function from the lane departure warning module within your code that handles the behavior of the car:
 import lane_departure_warning as ldw
-
-#Integrate the new module: You can integrate the new module into your existing code by calling the necessary functions from the lane departure warning module. For example, you can call the detect_departure function from the lane departure warning module within your code that handles the behavior of the car:
-
  if ldw.detect_departure():
   # trigger warning to driver or autonomous system
   ...
