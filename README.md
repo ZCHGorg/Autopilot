@@ -1,4 +1,4 @@
-# Autopilot is a big undertaking.  I've done some mental push-ups for you, a small team is recommended to complete, or other similar  deductive-reasoning style of completing integration of the various modules and strings together until there are no loose ends.
+# Autopilot is a big undertaking.  I've done some mental push-ups for you.  A small team is recommended to complete, or other similar deductive-reasoning method of completing integration of the various modules and strings together until there are no loose ends.
 
 # Assemble the files in order of creation by simply copying and pasting into visual-basic code editor, or the like.  The Code will make a lot more sense through this lens.  After that, read through everything.  I stopped with integrating sonar to visual, which should tie everything together as it relates to weighting all possible variables using Machine Learning technique with fall-back settings (which again need to be properly weighted) in the event of machine learning confusion.
 
