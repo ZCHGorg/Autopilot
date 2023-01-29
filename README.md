@@ -6,22 +6,9 @@
 
 # particular weakness right now is integration with OBD-1, OBD-2, and/or similar.  This isn't such a difficult undertaking once the code for these desired standards are implemented, and of course these parameters are not neccessary for the main function - autopilot.
 
-# Our redundant functions if machine learning fails should be constructed out of emergency procedure machine learning, such as the 'decide-between' function which was created as a demonstration beside the following module-creation protocol:
+# Our redundant functions if Standard Machine Learning fails should be constructed out of Machine Learning Emergency Protocol, such as the 'decide-between' function which was created as a demonstration.  Failed Standard Machine Learning should also fall back on simple algorithms which are our baseline logic to be used in parallel with other Machine Learning Emergency Protocol modules.
 
-# Suppose you want to add a new module for lane departure warning to your existing code for a self-driving car.
-
-# Determine the functionality: The new module should detect when the car is deviating from its lane and provide a warning to the driver or the autonomous system.
-
-# Write or find code: You can write your own code for this module or find existing code online that can be adapted to your needs. For example, you can use OpenCV to detect lane lines and compare the position of the car to the lane lines to determine if it is departing from its lane.
-
-#Import the new module: In your existing code, you can add the following line to import the lane departure warning module:
-
-# python
-# #Integrate the new module: You can integrate the new module into your existing code by calling the necessary functions from the lane departure warning module. For example, you can call the detect_departure function from the lane departure warning module within your code that handles the behavior of the car:
-import lane_departure_warning as ldw
-     if ldw.detect_departure():
-  ...
-  # # trigger warning to driver or autonomous system
+*********************************
   
 # Test the entire system: Test the entire system to ensure that the new module is working correctly and that there are no unintended consequences. This can be done by running simulations or test drives with the car.
 
