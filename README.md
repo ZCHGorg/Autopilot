@@ -19,9 +19,10 @@
 # python
 # #Integrate the new module: You can integrate the new module into your existing code by calling the necessary functions from the lane departure warning module. For example, you can call the detect_departure function from the lane departure warning module within your code that handles the behavior of the car:
 import lane_departure_warning as ldw
- if ldw.detect_departure():
-  # trigger warning to driver or autonomous system
+     if ldw.detect_departure():
   ...
+  # # trigger warning to driver or autonomous system
+  
 # Test the entire system: Test the entire system to ensure that the new module is working correctly and that there are no unintended consequences. This can be done by running simulations or test drives with the car.
 
 Document the new module: Document the new module and its usage within your existing code. This can include documenting the functions and their parameters, any variables or constants used, and any important information about the behavior of the module.
