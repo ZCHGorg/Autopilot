@@ -52,4 +52,4 @@ Test and validate: Thoroughly test and validate the algorithm with various scena
 
 Document and package: Document the code, including the objectives, inputs, outputs, algorithms, and safety mechanisms, and package the code into a single instruction set that can be used by the boiler room to connect all modules together.
 
-# As with many things in life, it's best to start with a simple derivation of this and then expand outward into more functions, outlined herein, as labor-hours permit.  For example, by setting Machine Learning to pass driver to user if confused, this library can be ignored for early revisions and then implemented later on, budget permitting.
+# As with many things in life, it's best to start with a simple derivation of this and then expand outward into more functions, outlined herein, as labor-hours permit.  For example, by setting Machine Learning to pass driver to user if confused, the higher-level libraries can be ignored for early revisions and then implemented later on, budget permitting.
