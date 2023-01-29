@@ -1,4 +1,4 @@
-# This readme is best viewed in code preview mode (source blog mode)
+# This readme is best viewed in code preview mode (copy and paste into an editor such as Visual Basic Code)
 
 # Autopilot is a big undertaking.  I've done some mental push-ups for you, a boiler room is recommended to complete, or other similar brute-force style of completing integrating the various modules and strings together until there are no loose ends.
 
