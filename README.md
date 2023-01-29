@@ -22,7 +22,6 @@
 
 # import lane_departure_warning as ldw
 # Integrate the new module: You can integrate the new module into your existing code by calling the necessary functions from the lane departure warning module. For example, you can call the detect_departure function from the lane departure warning module within your code that handles the behavior of the car:
-python
 
 # if ldw.detect_departure():
   # trigger warning to driver or autonomous system
