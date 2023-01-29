@@ -1380,3 +1380,5 @@ distances = process_sonar_data(sonar_data, weight)
 print("Detected obstacles (sonar detection):")
 print("Distances:", distances)
 In this example, the first part of the code is the object detection using the OpenCV library, while the second part of the code is the sonar data processing. The process_sonar_data function takes in sonar data and a weight, and returns the distances calculated from the sonar data with the weight applied. The detect_obstacles function from the first part of the code and the process_sonar_data function from the second part of the code can be combined to provide a complete solution for detecting obstacles and determining the shape of the road and lane markings.
+
+## Copyright Josef Kulovany and zchg.org where applicable - THIS LINE MUST BE SHOWN IF ANY APPLICABLE SNIPPET OR DERIVATIVE THEREIN IS BORROWED PER LICENSE AND COPYRIGHT LAW
