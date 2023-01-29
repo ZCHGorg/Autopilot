@@ -9,12 +9,7 @@
 # Our redundant functions if Standard Machine Learning fails should be constructed out of Machine Learning Emergency Protocol, such as the 'decide-between' function which was created as a demonstration.  Failed Standard Machine Learning should also fall back on simple algorithms which are our baseline logic to be used in parallel with other Machine Learning Emergency Protocol modules.  With a large enough data set, Machine Learning rarely gets confused and, if it does, there should also be a Machine Learning Module which permits a hybrid choice between Emergency Protocol Modules and Machine Learning suggestions for 'AI trim settings', resulting.
 
 *********************************
-  
-# Test the entire system: Test the entire system to ensure that the new module is working correctly and that there are no unintended consequences. This can be done by running simulations or test drives with the car.
-
-Document the new module: Document the new module and its usage within your existing code. This can include documenting the functions and their parameters, any variables or constants used, and any important information about the behavior of the module.
-
-Repeat as needed: Repeat these steps as needed for each additional module you wish to add to your code.
+ 
 
 # To complete the construction of the code for the near-zero loss-of-life autopilot algorithm with minimum property damage as a primary objective, the following steps would be taken:
 
